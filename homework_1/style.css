@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background: rgb(176, 225, 255);
+  padding: 1px 10px;
+}
+
+button:hover {
+  background: #fff;
+  padding: 1px 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
