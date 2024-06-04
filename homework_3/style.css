@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.photo-container {
+  max-width: 500px;
+  height: auto;
+}
+
+.photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.photo-info {
+  margin-top: 10px;
+}
+
+.like-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.like-btn {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.like-btn:hover {
+  transform: scale(1.2);
+}
+
+.like-count {
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav-btn {
+  font-size: 16px;
+  background-color: #608694;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.history-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.history-item {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=style.css.map */
