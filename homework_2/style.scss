@@ -1,0 +1,79 @@
+img {
+    width: 100%;
+}
+
+.slider__title{
+    font-family: "Helvetica Neue", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.slider {
+    position: relative;  //располагаем все элементы внутри контейнера
+    min-width: 800px;
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+.slider__line {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    transition: all 1s;
+    border-radius: 10px;
+}
+
+.slider__btn-prev {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    //transform: translateY(-50%) rotate(90deg); меняет положение кнопки
+    border: none;
+    background-color: transparent;
+}
+
+.slider__btn-next {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    //transform: translateY(-50%) rotate(90deg); меняет положение кнопки
+    border: none;
+    background-color: transparent;
+}
+
+.slider__wrapper {
+    display: flex;
+    column-gap: 10px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider__dot {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #524336;    
+}
+
+.slider__dot:hover {
+    background-color: #ecbe95;
+}
+
+.active-dot {
+    background-color: #ecbe95;  //цвет активной вкладки
+}
+
+.slider__btn-prev img, .slider__btn-next img {
+    width: 50px;
+    border-radius: 5px;
+    //background-color: #fff;
+    
+}
+
+.slider__btn-prev img:hover, .slider__btn-next img:hover {
+    background-color: #ecbe95;
+}

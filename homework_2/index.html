@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-слайдер</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="slider.js" defer></script>
+</head>
+
+<body>
+    <div class="slider__title">
+        <h2>Слайдер</h2>
+    </div>
+    <div class="slider">
+
+        <div class="slider__line">
+            <img class="slider__img" src="./img/2_1.jpg" alt="Фламингоу">
+            <img class="slider__img" src="./img/2_2.jpg" alt="Дятел">
+            <img class="slider__img" src="./img/2_3.jpg" alt="Котик">
+            <img class="slider__img" src="./img/2_4.jpg" alt="Собачка">
+            <img class="slider__img" src="./img/2_6.jpg" alt="Павлин">
+        </div>
+
+        <button class="slider__btn-prev">
+            <img src="./img/sim-arrow-left.png" alt="Предыдущее изображение">
+        </button>
+
+        <button class="slider__btn-next">
+            <img src="./img/sim-arrow-right.png" alt="Следующее изображение">
+        </button>
+
+        <div class="slider__wrapper">
+            <div class="slider__dot active-dot"></div>
+            <div class="slider__dot"></div>
+            <div class="slider__dot"></div>
+            <div class="slider__dot"></div>
+            <div class="slider__dot"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
